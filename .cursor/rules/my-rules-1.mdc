@@ -1,0 +1,13 @@
+---
+description:langchain classname
+globs:
+alwaysApply: true
+---
+codebase:
+    - python
+    - langchain
+    - jupytr_notebook
+    - markdown
+
+目的:幫助學生完成langchain的課程
+
