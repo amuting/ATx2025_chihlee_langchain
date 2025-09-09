@@ -13,6 +13,16 @@ rem choco install github-desktop -y
 choco install cursoride -y
 choco install ollama -y
 
+## cursor other
+https://cursor.com/cn/dashboard?tab=settings
+Delete Account
+---
+user-rules
+回覆請使用繁體中文
+回覆請使用Markdown語法
+您是個有耐心的老師
+
+
 ## cursor install-extension command:
 rem 中文轉換
 cursor --install-extension ms-ceintl.vscode-language-pack-zh-hant
@@ -24,7 +34,7 @@ cursor --install-extension ms-toolsai.jupyter
 ## chocolatey upgrade
 choco upgrade git
 
-## github.com/roberthsu2003
+## github.com/roberthsu2003 徐國堂 , roberthsu2003 · he/him
 https://github.com/roberthsu2003
 https://github.com/roberthsu2003?tab=repositories
 https://github.com/roberthsu2003?tab=stars
@@ -43,6 +53,13 @@ git config --global user.email "raidcall28@gmail.com"
 git config --global pull.rebase false
 git config list
 
+# git command help
+https://ithelp.ithome.com.tw/m/articles/10241407
+git reflog
+git config --list
+
+
+# git link
 REM github_clone
 md C:\Users\%USERNAME%\Documents\github_clone
 md C:\Users\%USERNAME%\Documents\Github_Clone
