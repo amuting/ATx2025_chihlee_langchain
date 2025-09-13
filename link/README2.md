@@ -78,8 +78,17 @@ conda --version
 conda config --set auto_activate_base false
 conda init --all bash
 conda update conda
+conda env list
+conda env remove --name langChain 
 conda env remove --name langchain
 conda create --name langchain python=3.11
+conda create --name langchain2 python=3.11
+conda install -n langchain ipykernel --update-deps --force-reinstall
+conda install -n langchain2 ipykernel --update-deps --force-reinstall
+# To activate this environment, use
+#     $ conda activate langchain
+# To deactivate an active environment, use
+#     $ conda deactivate
 
 ## ollama
 https://ollama.com/
