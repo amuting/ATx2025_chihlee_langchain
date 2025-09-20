@@ -103,4 +103,49 @@ ollama run llama3.2:3b
 ollama run llama3.2:latest
 ollama run llama3.2:3b --verbose 
 ollama run llama3.2:latest --verbose 
+ollama run gemma3:1b --verbose
 /bye
+
+## git conda
+cli
+gui
+
+conda 可以建立虛擬環境
+python
+pip , 套件管理程式, pypi.org
+perplexity ai
+perplexity ai browser ,
+perplexity ai agent ,
+
+manus , https://manus.im/
+
+## python , langchain 套件
+pip install langchain
+
+::conda install langchain -c conda-forge
+
+pip install langchain-core
+pip install langchain-community
+pip install langchain-experimental
+
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+template = PromptTemplate.from_template("請翻譯這段話為英文：{input}")
+chain = SimpleSequentialChain(llm=llm, prompt=template)
+
+print(chain.run("我想學 LangChain"))
+
+# warp 終端機
+
+python 標準函式庫 ,內建的function
+
+# http://huggingface.co/
+# https://huggingface.co/
+# https://huggingface.co/spaces/roberthsu2003/Tasla_modle3_manual
+# https://ollama.com/
+# https://github.com/ollama/ollama/tree/main/docs
+
+
+# choco 
+choco install vcredist2008
+choco install vcredist2010
+choco install vcredist140
