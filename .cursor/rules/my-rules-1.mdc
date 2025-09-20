@@ -1,7 +1,5 @@
 ---
-description:langchain classname
-globs:
-alwaysApply: true
+alwaysApply: false
 ---
 codebase:
     - python

@@ -79,8 +79,11 @@ conda config --set auto_activate_base false
 conda init --all bash
 conda update conda
 conda env list
+conda activate langchain2
 conda env remove --name langChain 
 conda env remove --name langchain
+conda env remove --name langchain2
+
 conda create --name langchain python=3.11
 conda create --name langchain2 python=3.11
 conda install -n langchain ipykernel --update-deps --force-reinstall
@@ -89,6 +92,8 @@ conda install -n langchain2 ipykernel --update-deps --force-reinstall
 #     $ conda activate langchain
 # To deactivate an active environment, use
 #     $ conda deactivate
+
+pip install -r requirements.txt
 
 ## ollama
 https://ollama.com/
@@ -149,3 +154,5 @@ python 標準函式庫 ,內建的function
 choco install vcredist2008
 choco install vcredist2010
 choco install vcredist140
+
+YAML*語法
