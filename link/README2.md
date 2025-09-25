@@ -209,3 +209,5 @@ Command: 'c:/Users/user4/Documents/Github_Clone/ATx2025_chihlee_langchain/.venv/
 UV pip install ipykernel
 
 # 花蓮新聞10則
+
+若你只想知道已安裝的 Python 套件，請使用 pip freeze。
