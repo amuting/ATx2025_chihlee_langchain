@@ -80,7 +80,7 @@ conda init --all bash
 conda update conda
 conda env list
 conda activate langchain2
-conda env remove --name langChain 
+***conda env remove --name langChain***
 conda env remove --name langchain
 conda env remove --name langchain2
 
@@ -156,3 +156,56 @@ choco install vcredist2010
 choco install vcredist140
 
 YAML*語法
+
+# .env
+google ai studio
+https://aistudio.google.com/prompts/new_chat
+https://aistudio.google.com/api-keys
+GOOGLE_API_KEY=**
+
+
+#uv README
+https://github.com/roberthsu2003/python/tree/master/uv
+
+#install uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+#UV COMMAND
+uv --version
+
+#UV VENV TEST
+# 在已有的專案
+uv init --python 3.10
+uv venv
+
+# 建立新專案
+uv init my-project
+cd my-project
+
+# 建立虛擬環境
+uv venv
+
+# 啟用虛擬環境
+source .venv/bin/activate  # macOS/Linux
+# 或
+.venv\Scripts\activate     # Windows
+.venv\Scripts\activate
+
+# 安裝套件
+uv add requests
+
+# 執行 Python 腳本
+uv run python script.py
+
+# 停用虛擬環境
+deactivate
+
+
+# ipykernel ERROR 
+Running cells with '.venv (Python 3.11.13)' requires the ipykernel package.
+Install 'ipykernel' into the Python environment. 
+Command: 'c:/Users/user4/Documents/Github_Clone/ATx2025_chihlee_langchain/.venv/Scripts/python.exe -m pip install ipykernel -U --force-reinstall'
+
+UV pip install ipykernel
+
+# 花蓮新聞10則
