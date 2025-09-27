@@ -455,7 +455,7 @@ def main():
     print("🌐 啟動 Web 介面...")
     try:
         interface.launch(
-            server_name="0.0.0.0",
+            server_name="localhost",
             server_port=free_port,
             share=False,
             show_error=True

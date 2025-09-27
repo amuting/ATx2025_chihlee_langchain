@@ -237,3 +237,7 @@ ollama pull gemma3:270m
 
 
 https://www.gradio.app/playground
+
+uv add langchain
+
+# 幫我把這個AI Agent加上gradio的介面!美觀一些
