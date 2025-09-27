@@ -211,3 +211,29 @@ UV pip install ipykernel
 # 花蓮新聞10則
 
 若你只想知道已安裝的 Python 套件，請使用 pip freeze。
+
+# lesson5
+機器學習,ai,對話框 python
+streamlit
+gradio
+
+網頁python
+flask,django,fastapi
+
+網頁
+javascript,next,react
+
+模型,溝通，資料 
+langchain -- ollama API, GEMINI API, openAI API, claude API
+
+Vibe Coding（氛圍編碼）
+Vibe Coding youtube 推薦
+
+
+ollama list
+ollama pull gemma3:270m
+
+實體屬性，實體方法
+
+
+https://www.gradio.app/playground
