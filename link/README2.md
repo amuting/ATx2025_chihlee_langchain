@@ -1,4 +1,6 @@
 
+## check chocolatey 
+choco --version 
 
 ## chocolatey install
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -6,11 +8,19 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ## community.chocolatey
 https://community.chocolatey.org/packages
 
+
 ## chocolatey git
 https://community.chocolatey.org/packages/git
 choco install git -y
 rem choco install github-desktop -y
+# chocolatey cursor
+# ?? choco install cursoride --version=0.49.3
+# https://cursor.com/cn
+# --2025/10/03 21:22:25, Cursor 1.7.28
 choco install cursoride -y
+
+# https://ollama.com/, https://github.com/ollama/ollama
+# --2025/10/03 21:23:52, v0.12.3
 choco install ollama -y
 
 ## cursor other
@@ -30,6 +40,7 @@ rem --Python any sphere.cursor py right
 cursor --install-extension anysphere.cursorpyright
 cursor --install-extension ms-python.python
 cursor --install-extension ms-toolsai.jupyter
+cursor --locale=zh-tw
 
 ## chocolatey upgrade
 choco upgrade git
@@ -122,6 +133,7 @@ perplexity ai
 perplexity ai browser ,
 perplexity ai agent ,
 
+# pip install
 manus , https://manus.im/
 
 ## python , langchain 套件
