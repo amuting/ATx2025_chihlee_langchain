@@ -175,8 +175,7 @@ https://aistudio.google.com/prompts/new_chat
 https://aistudio.google.com/api-keys
 GOOGLE_API_KEY=**
 
-
-#uv README
+# uv README
 https://github.com/roberthsu2003/python/tree/master/uv
 
 #install uv
@@ -202,6 +201,9 @@ source .venv/bin/activate  # macOS/Linux
 # 或
 .venv\Scripts\activate     # Windows
 .venv\Scripts\activate
+
+# un 同步更新
+uv sync
 
 # 安裝套件
 uv add requests
