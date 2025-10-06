@@ -77,6 +77,10 @@ md C:\Users\%USERNAME%\Documents\Github_Clone
 REM ojt-164450-Python與LangChain生成式AI開發實戰班第01期
 git clone --help
 
+## chocolatey miniconda
+choco install miniconda3 -y
+choco uninstall miniconda3 -y
+
 ## miniconda
 https://www.anaconda.com/docs/main
 https://www.anaconda.com/docs/getting-started/miniconda/main
