@@ -239,7 +239,7 @@ Install 'ipykernel' into the Python environment.
 Command: 'c:/Users/user4/Documents/Github_Clone/ATx2025_chihlee_langchain/.venv/Scripts/python.exe -m pip install ipykernel -U --force-reinstall'
 
 UV pip install ipykernel
-
+UV pip install ipykernel -U --force-reinstall
 # 花蓮新聞10則
 
 若你只想知道已安裝的 Python 套件，請使用 pip freeze。

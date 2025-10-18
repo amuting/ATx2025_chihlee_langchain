@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../__2025_08_30__chihlee_langchain__"
+		},
+		{
+			"path": "../LangChain"
+		},
+		{
+			"path": "../test_langchain"
+		},
+		{
+			"path": "../python"
+		},
+		{
+			"path": "../vibe_coding"
+		}
+	],
+	"settings": {}
+}

@@ -1,4 +1,8 @@
 # ATx2025_chihlee_langchain
+
+https://meet.google.com/itw-ewsf-fum
+
+
 產投2025/08/AI上課
 114政-新北-Python與LangChain生成式AI開發實戰班
 https://github.com/roberthsu2003/__2025_08_30__chihlee_langchain__/tree/main/link
