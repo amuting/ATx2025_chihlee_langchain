@@ -21,7 +21,20 @@ choco install cursoride -y
 
 # https://ollama.com/, https://github.com/ollama/ollama
 # --2025/10/03 21:23:52, v0.12.3
-choco install ollama -y
+# chocolatey ollama 
+choco install git ollama -y
+
+# github 
+# https://github.com/login
+c:
+md C:\Users\user\Documents\github_clone
+cd C:\Users\user\Documents\github_clone
+git clone https://github.com/amuting/ATx2025_chihlee_langchain.git
+git clone https://github.com/roberthsu2003/vibe_coding.git
+git clone https://github.com/roberthsu2003/python.git
+git clone https://github.com/roberthsu2003/LangChain.git
+git clone https://github.com/roberthsu2003/__2025_08_30__chihlee_langchain__.git
+
 
 ## cursor other
 https://cursor.com/cn/dashboard?tab=settings
@@ -182,7 +195,7 @@ GOOGLE_API_KEY=**
 # uv README
 https://github.com/roberthsu2003/python/tree/master/uv
 
-#install uv
+# install uv
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 #UV COMMAND
@@ -190,6 +203,7 @@ uv --version
 
 #UV VENV TEST
 # 在已有的專案
+uv sync
 uv init --python 3.10
 uv venv
 
