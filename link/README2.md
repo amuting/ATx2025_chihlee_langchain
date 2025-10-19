@@ -29,7 +29,12 @@ choco install git ollama -y
 c:
 md C:\Users\user\Documents\github_clone
 cd C:\Users\user\Documents\github_clone
+
+md C:\Users\user1\Documents\github_clone
+cd C:\Users\user1\Documents\github_clone
+
 git clone https://github.com/amuting/ATx2025_chihlee_langchain.git
+git clone https://github.com/amuting/test_langchain.git
 git clone https://github.com/roberthsu2003/vibe_coding.git
 git clone https://github.com/roberthsu2003/python.git
 git clone https://github.com/roberthsu2003/LangChain.git
@@ -138,6 +143,7 @@ ollama run llama3.2:3b --verbose
 ollama run llama3.2:latest --verbose 
 ollama run gemma3:1b --verbose
 /bye
+ollama run gpt-oss:20b
 
 ## git conda
 cli
@@ -198,8 +204,23 @@ https://github.com/roberthsu2003/python/tree/master/uv
 # install uv
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
+# uv Uninstallation
+uv cache clean
+rm $HOME\.local\bin\uv.exe
+rm $HOME\.local\bin\uvx.exe
+rm $HOME\.local\bin\uvw.exe
+rd C:\Users\user1\AppData\Local\uv
+rd C:\Users\user1\AppData\Roaming\uv
+
+
+# uv exe upgrade,,uv self update
+uv self update
+
 #UV COMMAND
 uv --version
+
+# uv pip install
+uv pip install pip
 
 #UV VENV TEST
 # 在已有的專案
@@ -273,3 +294,36 @@ https://www.gradio.app/playground
 uv add langchain
 
 # 幫我把這個AI Agent加上gradio的介面!美觀一些
+
+
+### ✅【方法一】臨時允許執行（推薦、安全）
+只在當前 PowerShell 視窗允許指令碼執行（關閉後恢復預設）
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+然後再執行：
+```powershell
+& c:/Users/user1/Documents/github_clone/ATx2025_chihlee_langchain/.venv/Scripts/Activate.ps1
+```
+---
+### ✅【方法二】針對目前使用者永久允許
+（這樣以後不需重複設定）
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+> 🔹 RemoteSigned 表示：本機建立的指令碼可執行，從網路下載的要有簽章。
+> 🔹 這是大多數開發者會使用的設定。
+---
+### ✅【方法三】檢查目前設定
+想知道目前的執行原則，可輸入：
+```powershell
+Get-ExecutionPolicy -List
+```
+### ⚙️恢復原狀（若想回復安全設定）
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
+```
+
+https://aistudio.google.com/app/api-keys
+
+
