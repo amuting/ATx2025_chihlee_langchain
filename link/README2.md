@@ -203,6 +203,7 @@ https://github.com/roberthsu2003/python/tree/master/uv
 
 # install uv
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+uv --version
 
 # uv Uninstallation
 uv cache clean
@@ -220,13 +221,14 @@ uv self update
 uv --version
 
 # uv pip install
-uv pip install pip
+# uv pip install pip
+uv pip install --system --upgrade pip
+uv pip install --upgrade pip
 
-#UV VENV TEST
-# 在已有的專案
-uv sync
+#UV VENV TEST # 在已有的專案
 uv init --python 3.10
-uv venv
+uv sync
+uv pip install --upgrade pip
 
 # 建立新專案
 uv init my-project
