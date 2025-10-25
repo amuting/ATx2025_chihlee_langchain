@@ -229,6 +229,9 @@ uv pip install --upgrade pip
 uv init --python 3.10
 uv sync
 uv pip install --upgrade pip
+UV pip install ipykernel
+
+winget install -e --id Docker.DockerDesktop
 
 # 建立新專案
 uv init my-project
@@ -329,3 +332,9 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
 https://aistudio.google.com/app/api-keys
 
 
+uv add langchain_community
+uv add langchain_huggingface
+uv add ipywidgets
+uv add sentence-transformers
+uv add langchain_chroma
+pip install sentence-transformers
